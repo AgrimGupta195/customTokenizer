@@ -1,8 +1,7 @@
 import { useState } from "react";
 
-type Props = {}
 
-const App = (props: Props) => {
+const App = () => {
   const customToken: Record<string, string> = {
     a: "🍎", b: "🐝", c: "🐱", d: "🐬", e: "🥚", f: "🐸",
     g: "🦒", h: "🏠", i: "🍦", j: "🤹", k: "🔑", l: "🦁",
